@@ -23,7 +23,7 @@ namespace Business
                 throw;
             }
         }
-
+        //TEST
         public DataTable GetPropietarios(string buscador)
         {
             if (string.IsNullOrWhiteSpace(buscador))
